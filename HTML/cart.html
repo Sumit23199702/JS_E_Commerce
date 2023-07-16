@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/cart.css" />
+  </head>
+  <body>
+    <header class="navbar justify-content-center bg-dark text-white">
+      <h1 class="me-3">My Cart</h1>
+      <a href="./home.html" class="btn btn-primary me-auto">Back to Products</a>
+    </header>
+    <div class="container">
+      <!-- Cart Content -->
+      <div class="product-box">
+        <img src="../IMAGES/Bag.jpg" alt="Loading" class="product-img" />
+        <div class="detail-box">
+          <div class="cart-product-title">Bag</div>
+          <div class="cart-price">₹500</div>
+          <input type="number" class="cart-quantity" />
+        </div>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">₹1500</div>
+        </div>
+        <button class="btn btn-primary mb-2">Clear Cart</button>
+        <button class="btn btn-primary">Order Now</button>
+      </div>
+    </div>
+  </body>
+</html>
